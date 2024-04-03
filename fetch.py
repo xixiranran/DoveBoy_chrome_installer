@@ -105,6 +105,7 @@ def load_json():
     global results
     with open('data.json', 'r') as f:
         results = json.load(f)
+        print("results:",results)
 
 def fetch():
     for k, v in info.items():
@@ -123,7 +124,7 @@ def fetch():
         #print("info:",info)
         #print("info.items():",info.items())
         #print("res:",res)
-        #print("data:",data)
+        print("data1:",data)
         #if version_tuple(data['version']) < version_tuple(results[k]['version']):
         #    print("ignore", k, data['version'])
         #    continue
@@ -169,7 +170,7 @@ def save_json():
 #            json.dump(v, f, indent=4)
 #            print("k:",k)
 #            print("v:",v)
-        print("results:",results)
+#        print("results:",results)
 #            print("results.items():",results.items())
 
 def main():
