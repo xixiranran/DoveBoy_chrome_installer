@@ -119,8 +119,8 @@ def fetch():
             data['label'] = 'Dev 开发版'
         elif "canary" in k:
            data['label']= 'Canary 金丝雀版'
-        print("k:",k)
-        print("v:",v)
+        #print("k:",k)
+        #print("v:",v)
         #print("info:",info)
         #print("info.items():",info.items())
         #print("res:",res)
@@ -146,11 +146,11 @@ def save_md():
         f.write('\n')
         for k, v in results.items():
             #f.write(f'## {k.replace("_", " ")}\n')
-            print("k:",k)
-            print("v:",v)
-            print("results:",results)
-            print("results.items():",results.items())
-            #f.write(f'**label**:{v["label"]}  \n')
+            #print("k:",k)
+            #print("v:",v)
+            #print("results:",results)
+            #print("results.items():",results.items())
+            f.write(f'**label**:{v["label"]}  \n')
             f.write(f'**version**:{v["version"]}  \n')
             f.write(f'**size**:{humansize(v["size"])}  \n')
             f.write(f'**sha1**:{v["sha1"]}  \n')
@@ -165,18 +165,11 @@ def save_md():
 def save_json():
     with open('data.json', 'w') as f:
         json.dump(results, f, indent=4)
- #   for k, v in results.items():
- #       with open(f'{k}.json', 'w') as f:
-#            json.dump(v, f, indent=4)
-#            print("k:",k)
-#            print("v:",v)
-#        print("results:",results)
-#            print("results.items():",results.items())
 
 def main():
     load_json()
     fetch()
-    #save_md()
+    save_md()
     save_json()
 
 main()
