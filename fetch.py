@@ -110,6 +110,7 @@ def fetch():
     for k, v in info.items():
         res = post(**v)
         data = decode(res)
+        global label
         if "stable" in k:
             data['label'] = 'Stable 稳定版'
         elif "beta" in k:
