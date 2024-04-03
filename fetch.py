@@ -165,6 +165,7 @@ def save_md():
 def save_json():
     with open('data.json', 'w') as f:
         json.dump(results, f, indent=4)
+        print(results.items())
         # 假设这是您生成的新数据格式
         new_data = {
             "time": 1711885545367,
@@ -179,7 +180,7 @@ def save_json():
             "time": timestamp,
             "data": {results.items()}
         }
-        print(results.items())
+        
         # 将最新数据更新到新数据中
         new_data["data"].update(latest_data["data"])
         
