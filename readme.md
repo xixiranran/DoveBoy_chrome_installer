@@ -1,5 +1,5 @@
 # Automatic Generated Time
-2024-04-03 15:04:32.932835+00:00
+2024-04-03 15:13:13.040800+00:00
 
 ## win stable x86
 **version**:123.0.6312.106  
@@ -93,17 +93,17 @@
 [https://www.google.com/dl/release2/chrome/adpbclcgpxdbrj6fk4dx56n27i4q_125.0.6396.0/125.0.6396.0_chrome_installer.exe](https://www.google.com/dl/release2/chrome/adpbclcgpxdbrj6fk4dx56n27i4q_125.0.6396.0/125.0.6396.0_chrome_installer.exe)  
 
 ## win canary x64
-**version**:125.0.6396.0  
-**size**:107.46 MB  
-**sha1**:1756675689d8ebcc2cc406653a4ade680a1d1636  
-**sha256**:f71e721f277b05a8a8a9fccd542d0f6676b1333104d786598059b4c44b79e3b1  
+**version**:125.0.6396.1  
+**size**:140.13 MB  
+**sha1**:f2324089647d85e554dcf680324b172ff175cc44  
+**sha256**:4fa39915918937e763412354b17c3bca63341f70dc03282136b9a3bd4ca27a5d  
 **download**:  
-[http://edgedl.me.gvt1.com/edgedl/release2/chrome/lgwxf4rn227rhzsviilpu6zw34_125.0.6396.0/125.0.6396.0_chrome_installer.exe](http://edgedl.me.gvt1.com/edgedl/release2/chrome/lgwxf4rn227rhzsviilpu6zw34_125.0.6396.0/125.0.6396.0_chrome_installer.exe)  
-[https://edgedl.me.gvt1.com/edgedl/release2/chrome/lgwxf4rn227rhzsviilpu6zw34_125.0.6396.0/125.0.6396.0_chrome_installer.exe](https://edgedl.me.gvt1.com/edgedl/release2/chrome/lgwxf4rn227rhzsviilpu6zw34_125.0.6396.0/125.0.6396.0_chrome_installer.exe)  
-[http://dl.google.com/release2/chrome/lgwxf4rn227rhzsviilpu6zw34_125.0.6396.0/125.0.6396.0_chrome_installer.exe](http://dl.google.com/release2/chrome/lgwxf4rn227rhzsviilpu6zw34_125.0.6396.0/125.0.6396.0_chrome_installer.exe)  
-[https://dl.google.com/release2/chrome/lgwxf4rn227rhzsviilpu6zw34_125.0.6396.0/125.0.6396.0_chrome_installer.exe](https://dl.google.com/release2/chrome/lgwxf4rn227rhzsviilpu6zw34_125.0.6396.0/125.0.6396.0_chrome_installer.exe)  
-[http://www.google.com/dl/release2/chrome/lgwxf4rn227rhzsviilpu6zw34_125.0.6396.0/125.0.6396.0_chrome_installer.exe](http://www.google.com/dl/release2/chrome/lgwxf4rn227rhzsviilpu6zw34_125.0.6396.0/125.0.6396.0_chrome_installer.exe)  
-[https://www.google.com/dl/release2/chrome/lgwxf4rn227rhzsviilpu6zw34_125.0.6396.0/125.0.6396.0_chrome_installer.exe](https://www.google.com/dl/release2/chrome/lgwxf4rn227rhzsviilpu6zw34_125.0.6396.0/125.0.6396.0_chrome_installer.exe)  
+[http://edgedl.me.gvt1.com/edgedl/release2/chrome/acy4f7auj7glxdjc4ajnj45qjsyq_125.0.6396.1/125.0.6396.1_chrome_installer.exe](http://edgedl.me.gvt1.com/edgedl/release2/chrome/acy4f7auj7glxdjc4ajnj45qjsyq_125.0.6396.1/125.0.6396.1_chrome_installer.exe)  
+[https://edgedl.me.gvt1.com/edgedl/release2/chrome/acy4f7auj7glxdjc4ajnj45qjsyq_125.0.6396.1/125.0.6396.1_chrome_installer.exe](https://edgedl.me.gvt1.com/edgedl/release2/chrome/acy4f7auj7glxdjc4ajnj45qjsyq_125.0.6396.1/125.0.6396.1_chrome_installer.exe)  
+[http://dl.google.com/release2/chrome/acy4f7auj7glxdjc4ajnj45qjsyq_125.0.6396.1/125.0.6396.1_chrome_installer.exe](http://dl.google.com/release2/chrome/acy4f7auj7glxdjc4ajnj45qjsyq_125.0.6396.1/125.0.6396.1_chrome_installer.exe)  
+[https://dl.google.com/release2/chrome/acy4f7auj7glxdjc4ajnj45qjsyq_125.0.6396.1/125.0.6396.1_chrome_installer.exe](https://dl.google.com/release2/chrome/acy4f7auj7glxdjc4ajnj45qjsyq_125.0.6396.1/125.0.6396.1_chrome_installer.exe)  
+[http://www.google.com/dl/release2/chrome/acy4f7auj7glxdjc4ajnj45qjsyq_125.0.6396.1/125.0.6396.1_chrome_installer.exe](http://www.google.com/dl/release2/chrome/acy4f7auj7glxdjc4ajnj45qjsyq_125.0.6396.1/125.0.6396.1_chrome_installer.exe)  
+[https://www.google.com/dl/release2/chrome/acy4f7auj7glxdjc4ajnj45qjsyq_125.0.6396.1/125.0.6396.1_chrome_installer.exe](https://www.google.com/dl/release2/chrome/acy4f7auj7glxdjc4ajnj45qjsyq_125.0.6396.1/125.0.6396.1_chrome_installer.exe)  
 
 ## mac stable
 **version**:123.0.6312.106  
