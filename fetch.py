@@ -111,13 +111,13 @@ def fetch():
         res = post(**v)
         data = decode(res)
         if "stable" in k:
-            data['label']:"Stable 稳定版"
+            data['label'] = 'Stable 稳定版'
         elif "beta" in k:
-            data['label']:"Beta 测试版"
+            data['label'] = 'Beta 测试版'
         elif "dev" in k:
-            data['label']:"Dev 开发版版"
+            data['label'] = 'Dev 开发版版'
         elif "canary" in k:
-           data['label']:"Canary 金丝雀版"
+           data['label']= 'Canary 金丝雀版'
         print("k:",k)
         print("v:",v)
         print("info:",info)
