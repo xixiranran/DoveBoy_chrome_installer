@@ -169,20 +169,24 @@ def save_json():
     for platform, data in results.items():
         platform_info = {
             "stable": {}, "beta": {}, "dev": {}, "canary": {}
-        }
-        for channel, info in data.items():
-            print("channel:",channel)
-            print("info:",info)
-            print("data:",data)
-            print("data.items():",data.items())
-            platform_info[channel] = {
-                "label": channel.capitalize().replace("_", " "),
-                "version": info["version"],
-                "size": info["size"],
-                "hash": info["sha1"].upper(),
-                "sha256": info["sha256"],
-                "urls": info["urls"]
-            }
+    }
+        "label": data["label"],
+        "version": data["version"],
+        "size": data["size"],
+        "hash": data["sha1"].upper(),
+        "sha256": data["sha256"],
+        "urls": data["urls"]
+        print("platform:",platform)
+        print("data:",data)
+        print("results:",results)
+        print("results.items():",results.items())
+        print("platform_info:",platform_info)
+        print("label:",label)
+        print("version:",version)
+        print("size:",size)
+        print("hash:",hash)
+        print("sha256:",sha256)
+        print("urls:",urls)
         data_to_save["data"][platform] = platform_info
     
     with open('data.json', 'w') as f:
