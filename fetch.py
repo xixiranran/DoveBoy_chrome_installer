@@ -166,27 +166,22 @@ def save_json():
     timestamp = datetime.now(timezone.utc).timestamp() * 1000
     data_to_save = {"time": timestamp, "data": {}}
     
-    for platform, data in results.items():
+    for version_key, channels in results.items():
+        platform, channel = version_key.split('_')
         platform_info = {
-            "stable": {}, "beta": {}, "dev": {}, "canary": {}
-    }
-        "label": data["label"],
-        "version": data["version"],
-        "size": data["size"],
-        "hash": data["sha1"].upper(),
-        "sha256": data["sha256"],
-        "urls": data["urls"]
-        print("platform:",platform)
-        print("data:",data)
+            "stable": channels.get("stable", {}),
+            "beta": channels.get("beta", {}),
+            "dev": channels.get("dev", {}),
+            "canary": channels.get("canary", {})
+        }
+        
+        print("version_key:",version_key)
+        print("channels:",channels)
         print("results:",results)
         print("results.items():",results.items())
+        print("platform:",platform)
+        print("channel:",channel)
         print("platform_info:",platform_info)
-        print("label:",label)
-        print("version:",version)
-        print("size:",size)
-        print("hash:",hash)
-        print("sha256:",sha256)
-        print("urls:",urls)
         data_to_save["data"][platform] = platform_info
     
     with open('data.json', 'w') as f:
