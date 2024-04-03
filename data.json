@@ -72,7 +72,7 @@
             "http://www.google.com/dl/release2/chrome/aczi4yawxmfh7um3zjkk7fs6tmya_125.0.6382.3/125.0.6382.3_chrome_installer.exe",
             "https://www.google.com/dl/release2/chrome/aczi4yawxmfh7um3zjkk7fs6tmya_125.0.6382.3/125.0.6382.3_chrome_installer.exe"
         ],
-        "label": "Dev \u5f00\u53d1\u7248\u7248"
+        "label": "Dev \u5f00\u53d1\u7248"
     },
     "win_dev_x64": {
         "version": "125.0.6382.3",
@@ -87,7 +87,7 @@
             "http://www.google.com/dl/release2/chrome/ad6zggpbnks52atpj2xgdht423pa_125.0.6382.3/125.0.6382.3_chrome_installer.exe",
             "https://www.google.com/dl/release2/chrome/ad6zggpbnks52atpj2xgdht423pa_125.0.6382.3/125.0.6382.3_chrome_installer.exe"
         ],
-        "label": "Dev \u5f00\u53d1\u7248\u7248"
+        "label": "Dev \u5f00\u53d1\u7248"
     },
     "win_canary_x86": {
         "version": "125.0.6396.0",

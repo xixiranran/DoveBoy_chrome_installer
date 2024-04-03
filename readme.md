@@ -1,7 +1,6 @@
 # Automatic Generated Time
-2024-04-03 15:36:18.311039+00:00
+2024-04-03 15:46:42.765640+00:00
 
-## win stable x86
 **version**:123.0.6312.106  
 **size**:99.01 MB  
 **sha1**:2d447b7cb1a869d0c5e8bd5c2b373a975f7b4a1a  
@@ -14,7 +13,6 @@
 [http://www.google.com/dl/release2/chrome/acbkb2gy36ufgyyn2nikx5vzo2cq_123.0.6312.106/123.0.6312.106_chrome_installer.exe](http://www.google.com/dl/release2/chrome/acbkb2gy36ufgyyn2nikx5vzo2cq_123.0.6312.106/123.0.6312.106_chrome_installer.exe)  
 [https://www.google.com/dl/release2/chrome/acbkb2gy36ufgyyn2nikx5vzo2cq_123.0.6312.106/123.0.6312.106_chrome_installer.exe](https://www.google.com/dl/release2/chrome/acbkb2gy36ufgyyn2nikx5vzo2cq_123.0.6312.106/123.0.6312.106_chrome_installer.exe)  
 
-## win stable x64
 **version**:123.0.6312.106  
 **size**:108.94 MB  
 **sha1**:2817b24b22be826e62e99fc419f43ccaca8caf8d  
@@ -27,7 +25,6 @@
 [http://www.google.com/dl/release2/chrome/actwpqpbckrqnxh2vvxg53plwjma_123.0.6312.106/123.0.6312.106_chrome_installer.exe](http://www.google.com/dl/release2/chrome/actwpqpbckrqnxh2vvxg53plwjma_123.0.6312.106/123.0.6312.106_chrome_installer.exe)  
 [https://www.google.com/dl/release2/chrome/actwpqpbckrqnxh2vvxg53plwjma_123.0.6312.106/123.0.6312.106_chrome_installer.exe](https://www.google.com/dl/release2/chrome/actwpqpbckrqnxh2vvxg53plwjma_123.0.6312.106/123.0.6312.106_chrome_installer.exe)  
 
-## win beta x86
 **version**:124.0.6367.18  
 **size**:95.99 MB  
 **sha1**:703cf543f87b9d424cd0511ad6095adc5872e85c  
@@ -40,7 +37,6 @@
 [http://www.google.com/dl/release2/chrome/puqm2kqntjjpwbybgtoopw4blu_124.0.6367.18/124.0.6367.18_chrome_installer.exe](http://www.google.com/dl/release2/chrome/puqm2kqntjjpwbybgtoopw4blu_124.0.6367.18/124.0.6367.18_chrome_installer.exe)  
 [https://www.google.com/dl/release2/chrome/puqm2kqntjjpwbybgtoopw4blu_124.0.6367.18/124.0.6367.18_chrome_installer.exe](https://www.google.com/dl/release2/chrome/puqm2kqntjjpwbybgtoopw4blu_124.0.6367.18/124.0.6367.18_chrome_installer.exe)  
 
-## win beta x64
 **version**:124.0.6367.18  
 **size**:106.75 MB  
 **sha1**:dcc822f04ac3c12d8cd50f9595fbf7ed7f3e788e  
@@ -53,7 +49,6 @@
 [http://www.google.com/dl/release2/chrome/aczvfqqyrnvh3zaa4qn66eaw6goq_124.0.6367.18/124.0.6367.18_chrome_installer.exe](http://www.google.com/dl/release2/chrome/aczvfqqyrnvh3zaa4qn66eaw6goq_124.0.6367.18/124.0.6367.18_chrome_installer.exe)  
 [https://www.google.com/dl/release2/chrome/aczvfqqyrnvh3zaa4qn66eaw6goq_124.0.6367.18/124.0.6367.18_chrome_installer.exe](https://www.google.com/dl/release2/chrome/aczvfqqyrnvh3zaa4qn66eaw6goq_124.0.6367.18/124.0.6367.18_chrome_installer.exe)  
 
-## win dev x86
 **version**:125.0.6382.3  
 **size**:96.44 MB  
 **sha1**:d0c8c827ff8ac12ab874926353e86c7a295fdc93  
@@ -66,7 +61,6 @@
 [http://www.google.com/dl/release2/chrome/aczi4yawxmfh7um3zjkk7fs6tmya_125.0.6382.3/125.0.6382.3_chrome_installer.exe](http://www.google.com/dl/release2/chrome/aczi4yawxmfh7um3zjkk7fs6tmya_125.0.6382.3/125.0.6382.3_chrome_installer.exe)  
 [https://www.google.com/dl/release2/chrome/aczi4yawxmfh7um3zjkk7fs6tmya_125.0.6382.3/125.0.6382.3_chrome_installer.exe](https://www.google.com/dl/release2/chrome/aczi4yawxmfh7um3zjkk7fs6tmya_125.0.6382.3/125.0.6382.3_chrome_installer.exe)  
 
-## win dev x64
 **version**:125.0.6382.3  
 **size**:107.1 MB  
 **sha1**:c3aadfb0f0372cbd110db9609057b5a7a019f5dc  
@@ -79,7 +73,6 @@
 [http://www.google.com/dl/release2/chrome/ad6zggpbnks52atpj2xgdht423pa_125.0.6382.3/125.0.6382.3_chrome_installer.exe](http://www.google.com/dl/release2/chrome/ad6zggpbnks52atpj2xgdht423pa_125.0.6382.3/125.0.6382.3_chrome_installer.exe)  
 [https://www.google.com/dl/release2/chrome/ad6zggpbnks52atpj2xgdht423pa_125.0.6382.3/125.0.6382.3_chrome_installer.exe](https://www.google.com/dl/release2/chrome/ad6zggpbnks52atpj2xgdht423pa_125.0.6382.3/125.0.6382.3_chrome_installer.exe)  
 
-## win canary x86
 **version**:125.0.6396.0  
 **size**:96.8 MB  
 **sha1**:ded366ea307d964da7a0a83e4bf595cbb85e1c74  
@@ -92,7 +85,6 @@
 [http://www.google.com/dl/release2/chrome/adpbclcgpxdbrj6fk4dx56n27i4q_125.0.6396.0/125.0.6396.0_chrome_installer.exe](http://www.google.com/dl/release2/chrome/adpbclcgpxdbrj6fk4dx56n27i4q_125.0.6396.0/125.0.6396.0_chrome_installer.exe)  
 [https://www.google.com/dl/release2/chrome/adpbclcgpxdbrj6fk4dx56n27i4q_125.0.6396.0/125.0.6396.0_chrome_installer.exe](https://www.google.com/dl/release2/chrome/adpbclcgpxdbrj6fk4dx56n27i4q_125.0.6396.0/125.0.6396.0_chrome_installer.exe)  
 
-## win canary x64
 **version**:125.0.6396.1  
 **size**:140.13 MB  
 **sha1**:f2324089647d85e554dcf680324b172ff175cc44  
@@ -105,7 +97,6 @@
 [http://www.google.com/dl/release2/chrome/acy4f7auj7glxdjc4ajnj45qjsyq_125.0.6396.1/125.0.6396.1_chrome_installer.exe](http://www.google.com/dl/release2/chrome/acy4f7auj7glxdjc4ajnj45qjsyq_125.0.6396.1/125.0.6396.1_chrome_installer.exe)  
 [https://www.google.com/dl/release2/chrome/acy4f7auj7glxdjc4ajnj45qjsyq_125.0.6396.1/125.0.6396.1_chrome_installer.exe](https://www.google.com/dl/release2/chrome/acy4f7auj7glxdjc4ajnj45qjsyq_125.0.6396.1/125.0.6396.1_chrome_installer.exe)  
 
-## mac stable
 **version**:123.0.6312.106  
 **size**:203.09 MB  
 **sha1**:8a659a249d79970b5796c9a5fd32492e9c5ee829  
@@ -118,7 +109,6 @@
 [http://www.google.com/dl/release2/chrome/l5gs53srvucllvjdgxqmn7wsq4_123.0.6312.106/GoogleChrome-123.0.6312.106.dmg](http://www.google.com/dl/release2/chrome/l5gs53srvucllvjdgxqmn7wsq4_123.0.6312.106/GoogleChrome-123.0.6312.106.dmg)  
 [https://www.google.com/dl/release2/chrome/l5gs53srvucllvjdgxqmn7wsq4_123.0.6312.106/GoogleChrome-123.0.6312.106.dmg](https://www.google.com/dl/release2/chrome/l5gs53srvucllvjdgxqmn7wsq4_123.0.6312.106/GoogleChrome-123.0.6312.106.dmg)  
 
-## mac beta
 **version**:123.0.6312.106  
 **size**:203.09 MB  
 **sha1**:8a659a249d79970b5796c9a5fd32492e9c5ee829  
@@ -131,7 +121,6 @@
 [http://www.google.com/dl/release2/chrome/l5gs53srvucllvjdgxqmn7wsq4_123.0.6312.106/GoogleChrome-123.0.6312.106.dmg](http://www.google.com/dl/release2/chrome/l5gs53srvucllvjdgxqmn7wsq4_123.0.6312.106/GoogleChrome-123.0.6312.106.dmg)  
 [https://www.google.com/dl/release2/chrome/l5gs53srvucllvjdgxqmn7wsq4_123.0.6312.106/GoogleChrome-123.0.6312.106.dmg](https://www.google.com/dl/release2/chrome/l5gs53srvucllvjdgxqmn7wsq4_123.0.6312.106/GoogleChrome-123.0.6312.106.dmg)  
 
-## mac dev
 **version**:123.0.6312.106  
 **size**:203.09 MB  
 **sha1**:8a659a249d79970b5796c9a5fd32492e9c5ee829  
@@ -144,7 +133,6 @@
 [http://www.google.com/dl/release2/chrome/l5gs53srvucllvjdgxqmn7wsq4_123.0.6312.106/GoogleChrome-123.0.6312.106.dmg](http://www.google.com/dl/release2/chrome/l5gs53srvucllvjdgxqmn7wsq4_123.0.6312.106/GoogleChrome-123.0.6312.106.dmg)  
 [https://www.google.com/dl/release2/chrome/l5gs53srvucllvjdgxqmn7wsq4_123.0.6312.106/GoogleChrome-123.0.6312.106.dmg](https://www.google.com/dl/release2/chrome/l5gs53srvucllvjdgxqmn7wsq4_123.0.6312.106/GoogleChrome-123.0.6312.106.dmg)  
 
-## mac canary
 **version**:125.0.6396.0  
 **size**:192.53 MB  
 **sha1**:695c0616c2b342e2252acdb77b918f7bf0325c99  
