@@ -115,15 +115,15 @@ def fetch():
         elif "beta" in k:
             data['label'] = 'Beta 测试版'
         elif "dev" in k:
-            data['label'] = 'Dev 开发版版'
+            data['label'] = 'Dev 开发版'
         elif "canary" in k:
            data['label']= 'Canary 金丝雀版'
-        print("k:",k)
-        print("v:",v)
-        print("info:",info)
-        print("info.items():",info.items())
+        #print("k:",k)
+        #print("v:",v)
+        #print("info:",info)
+        #print("info.items():",info.items())
         #print("res:",res)
-        print("data:",data)
+        #print("data:",data)
         if version_tuple(data['version']) < version_tuple(results[k]['version']):
             print("ignore", k, data['version'])
             continue
@@ -144,7 +144,8 @@ def save_md():
         f.write(f'{datetime.now(timezone.utc)}\n')
         f.write('\n')
         for k, v in results.items():
-            f.write(f'## {k.replace("_", " ")}\n')
+            #f.write(f'## {k.replace("_", " ")}\n')
+            f.write(f'## {v["label"]}  \n')
             f.write(f'**version**:{v["version"]}  \n')
             f.write(f'**size**:{humansize(v["size"])}  \n')
             f.write(f'**sha1**:{v["sha1"]}  \n')
