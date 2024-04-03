@@ -3,7 +3,7 @@
     "data": {
         "win_x86": {
             "stable": {
-                "label": "Stable 稳定版",
+                "label": "Stable \u7a33\u5b9a\u7248",
                 "version": "123.0.6312.86",
                 "size": 103728688,
                 "hash": "2D568CF8458A188ADFF7ABE0585449B017FF4BA9",
@@ -18,7 +18,7 @@
                 ]
             },
             "beta": {
-                "label": "Beta 测试版",
+                "label": "Beta \u6d4b\u8bd5\u7248",
                 "version": "124.0.6367.18",
                 "size": 100650544,
                 "hash": "703CF543F87B9D424CD0511AD6095ADC5872E85C",
@@ -33,7 +33,7 @@
                 ]
             },
             "dev": {
-                "label": "Dev 开发版",
+                "label": "Dev \u5f00\u53d1\u7248",
                 "version": "125.0.6382.3",
                 "size": 101122096,
                 "hash": "D0C8C827FF8AC12AB874926353E86C7A295FDC93",
@@ -48,7 +48,7 @@
                 ]
             },
             "canary": {
-                "label": "Canary 金丝雀版",
+                "label": "Canary \u91d1\u4e1d\u96c0\u7248",
                 "version": "125.0.6390.0",
                 "size": 101566000,
                 "hash": "75D6003509028957BF3C84BD300116AF4A6DF613",
@@ -65,7 +65,7 @@
         },
         "win_x64": {
             "stable": {
-                "label": "Stable 稳定版",
+                "label": "Stable \u7a33\u5b9a\u7248",
                 "version": "123.0.6312.86",
                 "size": 114231344,
                 "hash": "6AE8AFFDEF84EE944C11F37FA6D69C6CB19966F9",
@@ -80,7 +80,7 @@
                 ]
             },
             "beta": {
-                "label": "Beta 测试版",
+                "label": "Beta \u6d4b\u8bd5\u7248",
                 "version": "124.0.6367.18",
                 "size": 111931952,
                 "hash": "DCC822F04AC3C12D8CD50F9595FBF7ED7F3E788E",
@@ -95,7 +95,7 @@
                 ]
             },
             "dev": {
-                "label": "Dev 开发版",
+                "label": "Dev \u5f00\u53d1\u7248",
                 "version": "125.0.6382.3",
                 "size": 112303152,
                 "hash": "C3AADFB0F0372CBD110DB9609057B5A7A019F5DC",
@@ -110,7 +110,7 @@
                 ]
             },
             "canary": {
-                "label": "Canary 金丝雀版",
+                "label": "Canary \u91d1\u4e1d\u96c0\u7248",
                 "version": "125.0.6390.0",
                 "size": 112663600,
                 "hash": "55A3D52FC5B98C6AD17E868C4923F293CE53DA1F",
@@ -127,7 +127,7 @@
         },
         "win7": {
             "x86_stable": {
-                "label": "32 位稳定版",
+                "label": "32 \u4f4d\u7a33\u5b9a\u7248",
                 "version": "109.0.5414.149",
                 "size": 89303080,
                 "hash": "6610524FF5F1E3EE71D503E9B5C1F8A3FDB8D5AD",
@@ -142,7 +142,7 @@
                 ]
             },
             "x64_stable": {
-                "label": "64 位稳定版",
+                "label": "64 \u4f4d\u7a33\u5b9a\u7248",
                 "version": "109.0.5414.149",
                 "size": 93174824,
                 "hash": "4B1DFF35DB446536D51AC7D5DD5CC76912432135",
@@ -159,7 +159,7 @@
         },
         "mac": {
             "stable": {
-                "label": "Stable 稳定版",
+                "label": "Stable \u7a33\u5b9a\u7248",
                 "version": "123.0.6312.87",
                 "size": 212951462,
                 "hash": "5AEEADCD67077DEE92B1FBACE9B39C6438D6EDF5",
@@ -174,7 +174,7 @@
                 ]
             },
             "beta": {
-                "label": "Beta 测试版",
+                "label": "Beta \u6d4b\u8bd5\u7248",
                 "version": "124.0.6367.18",
                 "size": 207306525,
                 "hash": "27B4B7058D522001191A54C0E18BBF1166C3D642",
@@ -189,7 +189,7 @@
                 ]
             },
             "dev": {
-                "label": "Dev 开发版",
+                "label": "Dev \u5f00\u53d1\u7248",
                 "version": "125.0.6382.3",
                 "size": 201596003,
                 "hash": "43C17BF032B50CEB6ACD9B180B98AF5A508AA483",
@@ -204,7 +204,7 @@
                 ]
             },
             "canary": {
-                "label": "Canary 金丝雀版",
+                "label": "Canary \u91d1\u4e1d\u96c0\u7248",
                 "version": "125.0.6390.0",
                 "size": 201288214,
                 "hash": "F0186E40D3F603CD877AF6E224B7CA0D2AFC8923",
