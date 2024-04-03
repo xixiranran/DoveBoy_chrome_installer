@@ -171,6 +171,10 @@ def save_json():
             "stable": {}, "beta": {}, "dev": {}, "canary": {}
         }
         for channel, info in data.items():
+            print("channel:",channel)
+            print("info:",info)
+            print("data:",data)
+            print("data.items():",data.items())
             platform_info[channel] = {
                 "label": channel.capitalize().replace("_", " "),
                 "version": info["version"],
