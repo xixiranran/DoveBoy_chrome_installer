@@ -1,0 +1,32 @@
+{
+    "x86_stable": {
+        "label": "32 \u4f4d\u7a33\u5b9a\u7248",
+        "version": "109.0.5414.149",
+        "size": 89303080,
+        "hash": "6610524FF5F1E3EE71D503E9B5C1F8A3FDB8D5AD",
+        "sha256": "1C7195F31513B06D625D3CB07A9103826C2A87302CF6B3255B913270C91532BB",
+        "urls": [
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/adjs6spifue5dxngiogotsz633pq_109.0.5414.149/109.0.5414.149_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/adjs6spifue5dxngiogotsz633pq_109.0.5414.149/109.0.5414.149_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/adjs6spifue5dxngiogotsz633pq_109.0.5414.149/109.0.5414.149_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/adjs6spifue5dxngiogotsz633pq_109.0.5414.149/109.0.5414.149_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/adjs6spifue5dxngiogotsz633pq_109.0.5414.149/109.0.5414.149_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/adjs6spifue5dxngiogotsz633pq_109.0.5414.149/109.0.5414.149_chrome_installer.exe"
+        ]
+    },
+    "x64_stable": {
+        "label": "64 \u4f4d\u7a33\u5b9a\u7248",
+        "version": "109.0.5414.149",
+        "size": 93174824,
+        "hash": "4B1DFF35DB446536D51AC7D5DD5CC76912432135",
+        "sha256": "D6E9957BD91503BCFA21616E08E2E46E8CBA96E961E5998D67F1EC1C436A0A3B",
+        "urls": [
+            "http://edgedl.me.gvt1.com/edgedl/release2/chrome/oeecyq7z2j4yyfoa4cev5c4o7e_109.0.5414.149/109.0.5414.149_chrome_installer.exe",
+            "https://edgedl.me.gvt1.com/edgedl/release2/chrome/oeecyq7z2j4yyfoa4cev5c4o7e_109.0.5414.149/109.0.5414.149_chrome_installer.exe",
+            "http://dl.google.com/release2/chrome/oeecyq7z2j4yyfoa4cev5c4o7e_109.0.5414.149/109.0.5414.149_chrome_installer.exe",
+            "https://dl.google.com/release2/chrome/oeecyq7z2j4yyfoa4cev5c4o7e_109.0.5414.149/109.0.5414.149_chrome_installer.exe",
+            "http://www.google.com/dl/release2/chrome/oeecyq7z2j4yyfoa4cev5c4o7e_109.0.5414.149/109.0.5414.149_chrome_installer.exe",
+            "https://www.google.com/dl/release2/chrome/oeecyq7z2j4yyfoa4cev5c4o7e_109.0.5414.149/109.0.5414.149_chrome_installer.exe"
+        ]
+    }
+}
