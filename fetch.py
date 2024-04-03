@@ -80,7 +80,9 @@ def decode(text):
 
     manifest_node = root.find('.//manifest')
     manifest_version = manifest_node.get('version')
-
+    print("manifest_node",manifest_node)
+    print("manifest_version",manifest_version)
+    
     package_node = root.find('.//package')
     package_name = package_node.get('name')
     package_size = int(package_node.get('size'))
