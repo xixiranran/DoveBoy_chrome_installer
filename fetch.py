@@ -165,31 +165,6 @@ def save_md():
 def save_json():
     with open('data.json', 'w') as f:
         json.dump(results, f, indent=4)
-        print(results.items())
-        # 假设这是您生成的新数据格式
-        new_data = {
-            "time": 1711885545367,
-            "data": {
-                # ... 数据内容 ...
-            }
-        }
-        
-        # 构建新数据格式
-        timestamp = datetime.now(timezone.utc).timestamp() * 1000
-        latest_data = {
-            "time": timestamp,
-            "data": {results.items()}
-        }
-        
-        # 将最新数据更新到新数据中
-        new_data["data"].update(latest_data["data"])
-        
-        # 将新数据写入到 new_data.json 文件中
-        with open('new_data.json', 'w', encoding='utf-8') as json_file:
-            json.dump(new_data, json_file, indent=4, ensure_ascii=False)
-        
-        # 如果需要，也可以打印输出到控制台
-        print(json.dumps(new_data, indent=4, ensure_ascii=False))
 
 def main():
     load_json()
