@@ -11,7 +11,8 @@
             "https://dl.google.com/release2/chrome/acbkb2gy36ufgyyn2nikx5vzo2cq_123.0.6312.106/123.0.6312.106_chrome_installer.exe",
             "http://www.google.com/dl/release2/chrome/acbkb2gy36ufgyyn2nikx5vzo2cq_123.0.6312.106/123.0.6312.106_chrome_installer.exe",
             "https://www.google.com/dl/release2/chrome/acbkb2gy36ufgyyn2nikx5vzo2cq_123.0.6312.106/123.0.6312.106_chrome_installer.exe"
-        ]
+        ],
+        "label": "Stable \u7a33\u5b9a\u7248"
     },
     "win_stable_x64": {
         "version": "123.0.6312.106",
@@ -25,7 +26,8 @@
             "https://dl.google.com/release2/chrome/actwpqpbckrqnxh2vvxg53plwjma_123.0.6312.106/123.0.6312.106_chrome_installer.exe",
             "http://www.google.com/dl/release2/chrome/actwpqpbckrqnxh2vvxg53plwjma_123.0.6312.106/123.0.6312.106_chrome_installer.exe",
             "https://www.google.com/dl/release2/chrome/actwpqpbckrqnxh2vvxg53plwjma_123.0.6312.106/123.0.6312.106_chrome_installer.exe"
-        ]
+        ],
+        "label": "Stable \u7a33\u5b9a\u7248"
     },
     "win_beta_x86": {
         "version": "124.0.6367.18",
@@ -39,7 +41,8 @@
             "https://dl.google.com/release2/chrome/puqm2kqntjjpwbybgtoopw4blu_124.0.6367.18/124.0.6367.18_chrome_installer.exe",
             "http://www.google.com/dl/release2/chrome/puqm2kqntjjpwbybgtoopw4blu_124.0.6367.18/124.0.6367.18_chrome_installer.exe",
             "https://www.google.com/dl/release2/chrome/puqm2kqntjjpwbybgtoopw4blu_124.0.6367.18/124.0.6367.18_chrome_installer.exe"
-        ]
+        ],
+        "label": "Beta \u6d4b\u8bd5\u7248"
     },
     "win_beta_x64": {
         "version": "124.0.6367.18",
@@ -53,7 +56,8 @@
             "https://dl.google.com/release2/chrome/aczvfqqyrnvh3zaa4qn66eaw6goq_124.0.6367.18/124.0.6367.18_chrome_installer.exe",
             "http://www.google.com/dl/release2/chrome/aczvfqqyrnvh3zaa4qn66eaw6goq_124.0.6367.18/124.0.6367.18_chrome_installer.exe",
             "https://www.google.com/dl/release2/chrome/aczvfqqyrnvh3zaa4qn66eaw6goq_124.0.6367.18/124.0.6367.18_chrome_installer.exe"
-        ]
+        ],
+        "label": "Beta \u6d4b\u8bd5\u7248"
     },
     "win_dev_x86": {
         "version": "125.0.6382.3",
@@ -67,7 +71,8 @@
             "https://dl.google.com/release2/chrome/aczi4yawxmfh7um3zjkk7fs6tmya_125.0.6382.3/125.0.6382.3_chrome_installer.exe",
             "http://www.google.com/dl/release2/chrome/aczi4yawxmfh7um3zjkk7fs6tmya_125.0.6382.3/125.0.6382.3_chrome_installer.exe",
             "https://www.google.com/dl/release2/chrome/aczi4yawxmfh7um3zjkk7fs6tmya_125.0.6382.3/125.0.6382.3_chrome_installer.exe"
-        ]
+        ],
+        "label": "Dev \u5f00\u53d1\u7248\u7248"
     },
     "win_dev_x64": {
         "version": "125.0.6382.3",
@@ -81,7 +86,8 @@
             "https://dl.google.com/release2/chrome/ad6zggpbnks52atpj2xgdht423pa_125.0.6382.3/125.0.6382.3_chrome_installer.exe",
             "http://www.google.com/dl/release2/chrome/ad6zggpbnks52atpj2xgdht423pa_125.0.6382.3/125.0.6382.3_chrome_installer.exe",
             "https://www.google.com/dl/release2/chrome/ad6zggpbnks52atpj2xgdht423pa_125.0.6382.3/125.0.6382.3_chrome_installer.exe"
-        ]
+        ],
+        "label": "Dev \u5f00\u53d1\u7248\u7248"
     },
     "win_canary_x86": {
         "version": "125.0.6396.0",
@@ -95,7 +101,8 @@
             "https://dl.google.com/release2/chrome/adpbclcgpxdbrj6fk4dx56n27i4q_125.0.6396.0/125.0.6396.0_chrome_installer.exe",
             "http://www.google.com/dl/release2/chrome/adpbclcgpxdbrj6fk4dx56n27i4q_125.0.6396.0/125.0.6396.0_chrome_installer.exe",
             "https://www.google.com/dl/release2/chrome/adpbclcgpxdbrj6fk4dx56n27i4q_125.0.6396.0/125.0.6396.0_chrome_installer.exe"
-        ]
+        ],
+        "label": "Canary \u91d1\u4e1d\u96c0\u7248"
     },
     "win_canary_x64": {
         "version": "125.0.6396.1",
@@ -123,7 +130,8 @@
             "https://dl.google.com/release2/chrome/l5gs53srvucllvjdgxqmn7wsq4_123.0.6312.106/GoogleChrome-123.0.6312.106.dmg",
             "http://www.google.com/dl/release2/chrome/l5gs53srvucllvjdgxqmn7wsq4_123.0.6312.106/GoogleChrome-123.0.6312.106.dmg",
             "https://www.google.com/dl/release2/chrome/l5gs53srvucllvjdgxqmn7wsq4_123.0.6312.106/GoogleChrome-123.0.6312.106.dmg"
-        ]
+        ],
+        "label": "Stable \u7a33\u5b9a\u7248"
     },
     "mac_beta": {
         "version": "123.0.6312.106",
@@ -137,7 +145,8 @@
             "https://dl.google.com/release2/chrome/l5gs53srvucllvjdgxqmn7wsq4_123.0.6312.106/GoogleChrome-123.0.6312.106.dmg",
             "http://www.google.com/dl/release2/chrome/l5gs53srvucllvjdgxqmn7wsq4_123.0.6312.106/GoogleChrome-123.0.6312.106.dmg",
             "https://www.google.com/dl/release2/chrome/l5gs53srvucllvjdgxqmn7wsq4_123.0.6312.106/GoogleChrome-123.0.6312.106.dmg"
-        ]
+        ],
+        "label": "Beta \u6d4b\u8bd5\u7248"
     },
     "mac_dev": {
         "version": "123.0.6312.106",
@@ -165,6 +174,7 @@
             "https://dl.google.com/release2/chrome/ac4muy4n54rtzphi3dvcfsxspf2q_125.0.6396.0/GoogleChromeCanary-125.0.6396.0.dmg",
             "http://www.google.com/dl/release2/chrome/ac4muy4n54rtzphi3dvcfsxspf2q_125.0.6396.0/GoogleChromeCanary-125.0.6396.0.dmg",
             "https://www.google.com/dl/release2/chrome/ac4muy4n54rtzphi3dvcfsxspf2q_125.0.6396.0/GoogleChromeCanary-125.0.6396.0.dmg"
-        ]
+        ],
+        "label": "Canary \u91d1\u4e1d\u96c0\u7248"
     }
 }
