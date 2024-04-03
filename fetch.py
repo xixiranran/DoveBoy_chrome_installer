@@ -90,21 +90,10 @@ def decode(text):
     package_sha256 = package_node.get('hash_sha256')
 
     url_nodes = root.findall('.//url')
-
-    print("root",root)
-    print("manifest_version",manifest_version)
-    print("manifest_node",manifest_node)
-    print("package_node",package_node)
-    print("package_name",package_name)
-    print("package_size",package_size)
-    print("package_sha1",package_sha1)
-    print("package_sha256",package_sha256)
-    print("url_nodes",url_nodes)
     url_prefixes = []
     for node in url_nodes:
         url_prefixes.append(node.get('codebase') + package_name)
 
-    print("url_prefixes",url_prefixes)
     return {"version":manifest_version, "size":package_size, "sha1":package_sha1, "sha256":package_sha256, "urls":url_prefixes}
 
 results = {}
@@ -121,6 +110,12 @@ def fetch():
     for k, v in info.items():
         res = post(**v)
         data = decode(res)
+        print("k:",k)
+        print("v:",v)
+        print("info:",info)
+        print("info.items():",info.items())
+        print("res:",res)
+        print("data:",data)
         if version_tuple(data['version']) < version_tuple(results[k]['version']):
             print("ignore", k, data['version'])
             continue
