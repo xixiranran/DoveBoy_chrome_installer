@@ -164,13 +164,13 @@ def save_md():
 def save_json():
     with open('data.json', 'w') as f:
         json.dump(results, f, indent=4)
-    for k, v in results.items():
-        with open(f'{k}.json', 'w') as f:
-            json.dump(v, f, indent=4)
-            print("k:",k)
-            print("v:",v)
+ #   for k, v in results.items():
+ #       with open(f'{k}.json', 'w') as f:
+#            json.dump(v, f, indent=4)
+#            print("k:",k)
+#            print("v:",v)
             print("results:",results)
-            print("results.items():",results.items())
+#            print("results.items():",results.items())
 
 def main():
     load_json()
