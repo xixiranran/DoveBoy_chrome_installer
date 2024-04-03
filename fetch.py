@@ -110,7 +110,6 @@ def fetch():
     for k, v in info.items():
         res = post(**v)
         data = decode(res)
-        global label
         if "stable" in k:
             data['label'] = 'Stable 稳定版'
         elif "beta" in k:
@@ -150,7 +149,7 @@ def save_md():
             print("v:",v)
             print("results:",results)
             print("results.items():",results.items())
-            f.write(f'**label**:{v["label"]}  \n')
+            #f.write(f'**label**:{v["label"]}  \n')
             f.write(f'**version**:{v["version"]}  \n')
             f.write(f'**size**:{humansize(v["size"])}  \n')
             f.write(f'**sha1**:{v["sha1"]}  \n')
@@ -161,13 +160,36 @@ def save_md():
                     f.write(f'[{url}]({url})  \n')
 
             f.write('\n')
-
+            
 def save_json():
+    global results
+    timestamp = datetime.now(timezone.utc).timestamp() * 1000
+    data_to_save = {"time": timestamp, "data": {}}
+    
+    for platform, data in results.items():
+        platform_info = {
+            "stable": {}, "beta": {}, "dev": {}, "canary": {}
+        }
+        for channel, info in data.items():
+            platform_info[channel] = {
+                "label": channel.capitalize().replace("_", " "),
+                "version": info["version"],
+                "size": info["size"],
+                "hash": info["sha1"].upper(),
+                "sha256": info["sha256"],
+                "urls": info["urls"]
+            }
+        data_to_save["data"][platform] = platform_info
+    
     with open('data.json', 'w') as f:
-        json.dump(results, f, indent=4)
-    for k, v in results.items():
-        with open(f'{k}.json', 'w') as f:
-            json.dump(v, f, indent=4)
+        json.dump(data_to_save, f, indent=4, ensure_ascii=False)
+        
+#def save_json():
+#    with open('data.json', 'w') as f:
+#        json.dump(results, f, indent=4)
+#    for k, v in results.items():
+#        with open(f'{k}.json', 'w') as f:
+#            json.dump(v, f, indent=4)
 
 def main():
     load_json()
