@@ -177,9 +177,9 @@ def save_json():
         timestamp = datetime.now(timezone.utc).timestamp() * 1000
         latest_data = {
             "time": timestamp,
-            "data": {results}
+            "data": {results.items()}
         }
-        
+        print(results.items())
         # 将最新数据更新到新数据中
         new_data["data"].update(latest_data["data"])
         
