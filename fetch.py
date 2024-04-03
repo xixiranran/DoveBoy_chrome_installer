@@ -160,39 +160,13 @@ def save_md():
                     f.write(f'[{url}]({url})  \n')
 
             f.write('\n')
-            
+        
 def save_json():
-    global results
-    timestamp = datetime.now(timezone.utc).timestamp() * 1000
-    data_to_save = {"time": timestamp, "data": {}}
-    
-    for version_key, channels in results.items():
-        platform, channel = version_key.split('_')
-        platform_info = {
-            "stable": channels.get("stable", {}),
-            "beta": channels.get("beta", {}),
-            "dev": channels.get("dev", {}),
-            "canary": channels.get("canary", {})
-        }
-        
-        print("version_key:",version_key)
-        print("channels:",channels)
-        print("results:",results)
-        print("results.items():",results.items())
-        print("platform:",platform)
-        print("channel:",channel)
-        print("platform_info:",platform_info)
-        data_to_save["data"][platform] = platform_info
-    
     with open('data.json', 'w') as f:
-        json.dump(data_to_save, f, indent=4, ensure_ascii=False)
-        
-#def save_json():
-#    with open('data.json', 'w') as f:
-#        json.dump(results, f, indent=4)
-#    for k, v in results.items():
-#        with open(f'{k}.json', 'w') as f:
-#            json.dump(v, f, indent=4)
+        json.dump(results, f, indent=4)
+    for k, v in results.items():
+        with open(f'{k}.json', 'w') as f:
+            json.dump(v, f, indent=4)
 
 def main():
     load_json()
