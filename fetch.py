@@ -140,9 +140,10 @@ def humansize(nbytes):
     return '%s %s' % (f, suffixes[i])
 
 def save_md():
+    with open('data.json', 'w') as f:
     with open('readme.md', 'w') as f:
         f.write(f'# Automatic Generated Time\n')
-        f.write(f'{datetime.now(timezone.utc)}\n')
+        f.write(f'{datetime.now(timezone.utc).timestamp() * 1000}\n')
         f.write('\n')
         for k, v in results.items():
             #f.write(f'## {k.replace("_", " ")}\n')
