@@ -1,5 +1,5 @@
 # Automatic Generated Time
-2024-04-03 14:58:51.690157+00:00
+2024-04-03 15:04:32.932835+00:00
 
 ## win stable x86
 **version**:123.0.6312.106  
@@ -119,17 +119,17 @@
 [https://www.google.com/dl/release2/chrome/l5gs53srvucllvjdgxqmn7wsq4_123.0.6312.106/GoogleChrome-123.0.6312.106.dmg](https://www.google.com/dl/release2/chrome/l5gs53srvucllvjdgxqmn7wsq4_123.0.6312.106/GoogleChrome-123.0.6312.106.dmg)  
 
 ## mac beta
-**version**:123.0.6312.105  
-**size**:203.08 MB  
-**sha1**:a3a42ce5f1cfb16e77eccdcf652efa2934dbce7e  
-**sha256**:c02520f6bf2888958951e60e40f234438578cfd7d57854bae483e3f1c4f1df02  
+**version**:123.0.6312.106  
+**size**:203.09 MB  
+**sha1**:8a659a249d79970b5796c9a5fd32492e9c5ee829  
+**sha256**:5b70cb0615be8456193e5c404e791dc8f77ef01c8a7f685578b5ea2608d7209b  
 **download**:  
-[http://edgedl.me.gvt1.com/edgedl/release2/chrome/k3s2upz263mddrjgdaoyv6d7ga_123.0.6312.105/GoogleChrome-123.0.6312.105.dmg](http://edgedl.me.gvt1.com/edgedl/release2/chrome/k3s2upz263mddrjgdaoyv6d7ga_123.0.6312.105/GoogleChrome-123.0.6312.105.dmg)  
-[https://edgedl.me.gvt1.com/edgedl/release2/chrome/k3s2upz263mddrjgdaoyv6d7ga_123.0.6312.105/GoogleChrome-123.0.6312.105.dmg](https://edgedl.me.gvt1.com/edgedl/release2/chrome/k3s2upz263mddrjgdaoyv6d7ga_123.0.6312.105/GoogleChrome-123.0.6312.105.dmg)  
-[http://dl.google.com/release2/chrome/k3s2upz263mddrjgdaoyv6d7ga_123.0.6312.105/GoogleChrome-123.0.6312.105.dmg](http://dl.google.com/release2/chrome/k3s2upz263mddrjgdaoyv6d7ga_123.0.6312.105/GoogleChrome-123.0.6312.105.dmg)  
-[https://dl.google.com/release2/chrome/k3s2upz263mddrjgdaoyv6d7ga_123.0.6312.105/GoogleChrome-123.0.6312.105.dmg](https://dl.google.com/release2/chrome/k3s2upz263mddrjgdaoyv6d7ga_123.0.6312.105/GoogleChrome-123.0.6312.105.dmg)  
-[http://www.google.com/dl/release2/chrome/k3s2upz263mddrjgdaoyv6d7ga_123.0.6312.105/GoogleChrome-123.0.6312.105.dmg](http://www.google.com/dl/release2/chrome/k3s2upz263mddrjgdaoyv6d7ga_123.0.6312.105/GoogleChrome-123.0.6312.105.dmg)  
-[https://www.google.com/dl/release2/chrome/k3s2upz263mddrjgdaoyv6d7ga_123.0.6312.105/GoogleChrome-123.0.6312.105.dmg](https://www.google.com/dl/release2/chrome/k3s2upz263mddrjgdaoyv6d7ga_123.0.6312.105/GoogleChrome-123.0.6312.105.dmg)  
+[http://edgedl.me.gvt1.com/edgedl/release2/chrome/l5gs53srvucllvjdgxqmn7wsq4_123.0.6312.106/GoogleChrome-123.0.6312.106.dmg](http://edgedl.me.gvt1.com/edgedl/release2/chrome/l5gs53srvucllvjdgxqmn7wsq4_123.0.6312.106/GoogleChrome-123.0.6312.106.dmg)  
+[https://edgedl.me.gvt1.com/edgedl/release2/chrome/l5gs53srvucllvjdgxqmn7wsq4_123.0.6312.106/GoogleChrome-123.0.6312.106.dmg](https://edgedl.me.gvt1.com/edgedl/release2/chrome/l5gs53srvucllvjdgxqmn7wsq4_123.0.6312.106/GoogleChrome-123.0.6312.106.dmg)  
+[http://dl.google.com/release2/chrome/l5gs53srvucllvjdgxqmn7wsq4_123.0.6312.106/GoogleChrome-123.0.6312.106.dmg](http://dl.google.com/release2/chrome/l5gs53srvucllvjdgxqmn7wsq4_123.0.6312.106/GoogleChrome-123.0.6312.106.dmg)  
+[https://dl.google.com/release2/chrome/l5gs53srvucllvjdgxqmn7wsq4_123.0.6312.106/GoogleChrome-123.0.6312.106.dmg](https://dl.google.com/release2/chrome/l5gs53srvucllvjdgxqmn7wsq4_123.0.6312.106/GoogleChrome-123.0.6312.106.dmg)  
+[http://www.google.com/dl/release2/chrome/l5gs53srvucllvjdgxqmn7wsq4_123.0.6312.106/GoogleChrome-123.0.6312.106.dmg](http://www.google.com/dl/release2/chrome/l5gs53srvucllvjdgxqmn7wsq4_123.0.6312.106/GoogleChrome-123.0.6312.106.dmg)  
+[https://www.google.com/dl/release2/chrome/l5gs53srvucllvjdgxqmn7wsq4_123.0.6312.106/GoogleChrome-123.0.6312.106.dmg](https://www.google.com/dl/release2/chrome/l5gs53srvucllvjdgxqmn7wsq4_123.0.6312.106/GoogleChrome-123.0.6312.106.dmg)  
 
 ## mac dev
 **version**:123.0.6312.87  
