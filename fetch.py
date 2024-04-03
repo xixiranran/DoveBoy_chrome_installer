@@ -136,9 +136,10 @@ def save_md():
             f.write(f'**size**:{humansize(v["size"])}  \n')
             f.write(f'**sha1**:{v["sha1"]}  \n')
             f.write(f'**sha256**:{v["sha256"]}  \n')
+            f.write(f'**download**:  \n')
             for url in v["urls"]:
                 if url.startswith("http"):
-                    f.write(f'**download**:[{url}]({url})  \n')
+                    f.write(f'[{url}]({url})  \n')
 
             f.write('\n')
 
