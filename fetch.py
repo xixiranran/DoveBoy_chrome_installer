@@ -124,9 +124,9 @@ def fetch():
         #print("info.items():",info.items())
         #print("res:",res)
         #print("data:",data)
-        if version_tuple(data['version']) < version_tuple(results[k]['version']):
-            print("ignore", k, data['version'])
-            continue
+        #if version_tuple(data['version']) < version_tuple(results[k]['version']):
+        #    print("ignore", k, data['version'])
+        #    continue
         results[k] = data
 
 suffixes = ['B', 'KB', 'MB', 'GB', 'TB', 'PB']
