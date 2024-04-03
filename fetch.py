@@ -145,7 +145,11 @@ def save_md():
         f.write('\n')
         for k, v in results.items():
             #f.write(f'## {k.replace("_", " ")}\n')
-            f.write(f'## {v["label"]}  \n')
+            print("k:",k)
+            print("v:",v)
+            print("results:",results)
+            print("results.items():",results.items())
+            #f.write(f'## {v["label"]}  \n')
             f.write(f'**version**:{v["version"]}  \n')
             f.write(f'**size**:{humansize(v["size"])}  \n')
             f.write(f'**sha1**:{v["sha1"]}  \n')
