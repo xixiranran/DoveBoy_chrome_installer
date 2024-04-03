@@ -149,7 +149,7 @@ def save_md():
             print("v:",v)
             print("results:",results)
             print("results.items():",results.items())
-            #f.write(f'## {v["label"]}  \n')
+            f.write(f'**label**:{v["label"]}  \n')
             f.write(f'**version**:{v["version"]}  \n')
             f.write(f'**size**:{humansize(v["size"])}  \n')
             f.write(f'**sha1**:{v["sha1"]}  \n')
