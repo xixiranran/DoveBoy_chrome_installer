@@ -105,7 +105,7 @@ def load_json():
     global results
     with open('data.json', 'r') as f:
         results = json.load(f)
-        print("results:",results)
+        #print("results:",results)
 
 def fetch():
     for k, v in info.items():
@@ -119,16 +119,16 @@ def fetch():
             data['label'] = 'Dev 开发版'
         elif "canary" in k:
            data['label']= 'Canary 金丝雀版'
-        #print("k:",k)
-        #print("v:",v)
+        print("k:",k)
+        print("v:",v)
         #print("info:",info)
         #print("info.items():",info.items())
         #print("res:",res)
-        print("data1:",data)
+        #print("data:",data)
         #if version_tuple(data['version']) < version_tuple(results[k]['version']):
         #    print("ignore", k, data['version'])
         #    continue
-        results[k] = data
+        results = data
 
 suffixes = ['B', 'KB', 'MB', 'GB', 'TB', 'PB']
 def humansize(nbytes):
