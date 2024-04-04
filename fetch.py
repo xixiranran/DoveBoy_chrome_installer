@@ -134,6 +134,7 @@ def fetch():
         #print("data['time']:",data['time'])
         #print("data['time']:",data['time'])
         results = data
+        print("results:", results)
 
 suffixes = ['B', 'KB', 'MB', 'GB', 'TB', 'PB']
 def humansize(nbytes):
@@ -169,9 +170,9 @@ def save_md():
         
 def save_json():
     with open('data.json', 'w') as f:
-        results.update({results['time']: datetime.now(timezone.utc)})
+        #results.update({results['time']: datetime.now(timezone.utc)})
         json.dump(results, f, indent=4)
-        print("results:",results)
+        #print("results:",results)
 
 def main():
     load_json()
