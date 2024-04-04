@@ -127,7 +127,7 @@ def fetch():
         #print("data:",data)
         #print("data['version']:",data['version'])
         #print("results[k]['version']:",results[k]['version'])
-        #下面的代码因为我把data.json的格式改了，所以执行有问题，且我想到一个问题，就是他这个判断是判断的stable版本有无更新，有更新才执行后面的代码，但是有可能stable没更新，其他版本有更新，这样就会导致更新不及时，所以索性注释掉这个代码，让他按github action设置的时间频率，每次执行的时候都重新生成data.json
+        #下面的代码因为我把data.json的格式改了，所以执行有问题，且我想到一个问题，就是他这个判断是判断的stable版本有无更新，有更新才执行后面的代码，但是有可能stable没更新，其他版本有更新，这样就会导致更新不及时，所以索性注释掉这个代码，让他按github action设置的时间频率，每次执行的时候都重新生成data.json，而且注释这段代码github action执行后自己也会判断生成的文件有无变化，如果没变化则不自动更新生成
         #if version_tuple(data['version']) < version_tuple():
         #    print("ignore", k, data['version'])
         #    continue
@@ -168,6 +168,31 @@ def save_md():
 def save_json():
     with open('data.json', 'w') as f:
         json.dump(results, f, indent=4)
+        print(results.items())
+        # 假设这是您生成的新数据格式
+        new_data = {
+            "time": 1711885545367,
+            "data": {
+                # ... 数据内容 ...
+            }
+        }
+        
+        # 构建新数据格式
+        timestamp = datetime.now(timezone.utc).timestamp() * 1000
+        latest_data = {
+            "time": timestamp,
+            "data": {results.items()}
+        }
+        
+        # 将最新数据更新到新数据中
+        new_data["data"].update(latest_data["data"])
+        
+        # 将新数据写入到 new_data.json 文件中
+        with open('chrome.json', 'w', encoding='utf-8') as json_file:
+            json.dump(new_data, json_file, indent=4, ensure_ascii=False)
+        
+        # 如果需要，也可以打印输出到控制台
+        print(json.dumps(new_data, indent=4, ensure_ascii=False))
 
 def main():
     load_json()
