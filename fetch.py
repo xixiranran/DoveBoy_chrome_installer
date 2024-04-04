@@ -176,7 +176,7 @@ def save_json():
         json.dump(results, f, indent=4)
         #print("results:",results)
 
-from bs4 import BeautifulSoup
+#from bs4 import BeautifulSoup
 
 def update_html():
     # 步骤1: 读取本地HTML文件
