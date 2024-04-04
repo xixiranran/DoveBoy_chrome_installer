@@ -131,7 +131,7 @@ def fetch():
         #if version_tuple(data['version']) < version_tuple():
         #    print("ignore", k, data['version'])
         #    continue
-        data['time'] = datetime.now(timezone.utc).timestamp() * 1000
+        data.update({'data['time']': datetime.now(timezone.utc)})
         print("data['time']:",data['time'])
         results = data
 
