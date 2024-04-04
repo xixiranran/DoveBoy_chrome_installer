@@ -168,6 +168,7 @@ def save_md():
 def save_json():
     with open('data.json', 'w') as f:
         json.dump(results, f, indent=4)
+        print("results:",results)
 
 def main():
     load_json()
