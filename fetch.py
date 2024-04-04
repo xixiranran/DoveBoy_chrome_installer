@@ -169,6 +169,8 @@ def save_md():
         
 def save_json():
     with open('data.json', 'w') as f:
+        print("datetime.now(timezone.utc):",datetime.now(timezone.utc))
+        print("results['time']:",results['time'])
         #results.update({results['time']: datetime.now(timezone.utc)})
         json.dump(results, f, indent=4)
         print("results:",results)
