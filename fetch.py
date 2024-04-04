@@ -125,7 +125,9 @@ def fetch():
         print("info.items():",info.items())
         #print("res:",res)
         print("data:",data)
-        #if version_tuple(data['version']) < version_tuple(results[k]['version']):
+        print("data['version']:",data['version'])
+        print("results[k]['version']:",results[k]['version'])
+        #if version_tuple(data['version']) < version_tuple():
         #    print("ignore", k, data['version'])
         #    continue
         results = data
