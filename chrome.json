@@ -1,0 +1,125 @@
+{
+    "time": 1712218543836,
+    "data": {
+        "win_x86": {
+            "stable": {
+                "label": "Stable 稳定版",
+                "version": "123.0.6312.106",
+                "size": 103816752,
+                "hash": "2D447B7CB1A869D0C5E8BD5C2B373A975F7B4A1A",
+                "sha256": "CED1038239B0706210601BD13C5B7B51D62EA5FC6A63075627DB164A049CEAC0",
+                "urls": ["http://edgedl.me.gvt1.com/edgedl/release2/chrome/acbkb2gy36ufgyyn2nikx5vzo2cq_123.0.6312.106/123.0.6312.106_chrome_installer.exe", "https://edgedl.me.gvt1.com/edgedl/release2/chrome/acbkb2gy36ufgyyn2nikx5vzo2cq_123.0.6312.106/123.0.6312.106_chrome_installer.exe", "http://dl.google.com/release2/chrome/acbkb2gy36ufgyyn2nikx5vzo2cq_123.0.6312.106/123.0.6312.106_chrome_installer.exe", "https://dl.google.com/release2/chrome/acbkb2gy36ufgyyn2nikx5vzo2cq_123.0.6312.106/123.0.6312.106_chrome_installer.exe", "http://www.google.com/dl/release2/chrome/acbkb2gy36ufgyyn2nikx5vzo2cq_123.0.6312.106/123.0.6312.106_chrome_installer.exe", "https://www.google.com/dl/release2/chrome/acbkb2gy36ufgyyn2nikx5vzo2cq_123.0.6312.106/123.0.6312.106_chrome_installer.exe"]
+            },
+            "beta": {
+                "label": "Beta 测试版",
+                "version": "124.0.6367.29",
+                "size": 100584496,
+                "hash": "020CF51F37B41CE389AB23CF4C6F2A3CEB0730D8",
+                "sha256": "E1D550BC2A4F30CDFCA1D8FFC753DAABA831FF581A0E56B74AFFA5BA49544D24",
+                "urls": ["http://edgedl.me.gvt1.com/edgedl/release2/chrome/p3xjgwbwefedfu2mtisdnvgfyu_124.0.6367.29/124.0.6367.29_chrome_installer.exe", "https://edgedl.me.gvt1.com/edgedl/release2/chrome/p3xjgwbwefedfu2mtisdnvgfyu_124.0.6367.29/124.0.6367.29_chrome_installer.exe", "http://dl.google.com/release2/chrome/p3xjgwbwefedfu2mtisdnvgfyu_124.0.6367.29/124.0.6367.29_chrome_installer.exe", "https://dl.google.com/release2/chrome/p3xjgwbwefedfu2mtisdnvgfyu_124.0.6367.29/124.0.6367.29_chrome_installer.exe", "http://www.google.com/dl/release2/chrome/p3xjgwbwefedfu2mtisdnvgfyu_124.0.6367.29/124.0.6367.29_chrome_installer.exe", "https://www.google.com/dl/release2/chrome/p3xjgwbwefedfu2mtisdnvgfyu_124.0.6367.29/124.0.6367.29_chrome_installer.exe"]
+            },
+            "dev": {
+                "label": "Dev 开发版",
+                "version": "125.0.6382.3",
+                "size": 101122096,
+                "hash": "D0C8C827FF8AC12AB874926353E86C7A295FDC93",
+                "sha256": "CAA011D3C3483B093BEEE88C2F06047BACE36FAD4578A36F5DFC3BC95F2AAB44",
+                "urls": ["http://edgedl.me.gvt1.com/edgedl/release2/chrome/hwt2p32odqmwy6244atypcrsbu_125.0.6382.3/125.0.6382.3_chrome_installer.exe", "https://edgedl.me.gvt1.com/edgedl/release2/chrome/hwt2p32odqmwy6244atypcrsbu_125.0.6382.3/125.0.6382.3_chrome_installer.exe", "http://dl.google.com/release2/chrome/hwt2p32odqmwy6244atypcrsbu_125.0.6382.3/125.0.6382.3_chrome_installer.exe", "https://dl.google.com/release2/chrome/hwt2p32odqmwy6244atypcrsbu_125.0.6382.3/125.0.6382.3_chrome_installer.exe", "http://www.google.com/dl/release2/chrome/hwt2p32odqmwy6244atypcrsbu_125.0.6382.3/125.0.6382.3_chrome_installer.exe", "https://www.google.com/dl/release2/chrome/hwt2p32odqmwy6244atypcrsbu_125.0.6382.3/125.0.6382.3_chrome_installer.exe"]
+            },
+            "canary": {
+                "label": "Canary 金丝雀版",
+                "version": "125.0.6398.0",
+                "size": 101391920,
+                "hash": "79E1B47B3283E1F990C0FC0E87A0B370B7B455DD",
+                "sha256": "1B7729F751F44D8637C465CFE89B49BD09BD594C6141AD155FF73757FC057723",
+                "urls": ["http://edgedl.me.gvt1.com/edgedl/release2/chrome/lu7c7ylgnx3e3ceeq3t5fezt3y_125.0.6398.0/125.0.6398.0_chrome_installer.exe", "https://edgedl.me.gvt1.com/edgedl/release2/chrome/lu7c7ylgnx3e3ceeq3t5fezt3y_125.0.6398.0/125.0.6398.0_chrome_installer.exe", "http://dl.google.com/release2/chrome/lu7c7ylgnx3e3ceeq3t5fezt3y_125.0.6398.0/125.0.6398.0_chrome_installer.exe", "https://dl.google.com/release2/chrome/lu7c7ylgnx3e3ceeq3t5fezt3y_125.0.6398.0/125.0.6398.0_chrome_installer.exe", "http://www.google.com/dl/release2/chrome/lu7c7ylgnx3e3ceeq3t5fezt3y_125.0.6398.0/125.0.6398.0_chrome_installer.exe", "https://www.google.com/dl/release2/chrome/lu7c7ylgnx3e3ceeq3t5fezt3y_125.0.6398.0/125.0.6398.0_chrome_installer.exe"]
+            }
+        },
+        "win_x64": {
+            "stable": {
+                "label": "Stable 稳定版",
+                "version": "123.0.6312.106",
+                "size": 114234928,
+                "hash": "2817B24B22BE826E62E99FC419F43CCACA8CAF8D",
+                "sha256": "9305BF74929CEE9B7214004EAB4176D4220767E382B04EF4E5948C857580C49E",
+                "urls": ["http://edgedl.me.gvt1.com/edgedl/release2/chrome/actwpqpbckrqnxh2vvxg53plwjma_123.0.6312.106/123.0.6312.106_chrome_installer.exe", "https://edgedl.me.gvt1.com/edgedl/release2/chrome/actwpqpbckrqnxh2vvxg53plwjma_123.0.6312.106/123.0.6312.106_chrome_installer.exe", "http://dl.google.com/release2/chrome/actwpqpbckrqnxh2vvxg53plwjma_123.0.6312.106/123.0.6312.106_chrome_installer.exe", "https://dl.google.com/release2/chrome/actwpqpbckrqnxh2vvxg53plwjma_123.0.6312.106/123.0.6312.106_chrome_installer.exe", "http://www.google.com/dl/release2/chrome/actwpqpbckrqnxh2vvxg53plwjma_123.0.6312.106/123.0.6312.106_chrome_installer.exe", "https://www.google.com/dl/release2/chrome/actwpqpbckrqnxh2vvxg53plwjma_123.0.6312.106/123.0.6312.106_chrome_installer.exe"]
+            },
+            "beta": {
+                "label": "Beta 测试版",
+                "version": "124.0.6367.29",
+                "size": 111978544,
+                "hash": "E141516A769DF0D4CD7AF16EAC1761FCEAC793FB",
+                "sha256": "C0D125CC85BE879431281286B6BD7ACD94BDEFCCB3511839DEEE5DAFBEEDE186",
+                "urls": ["http://edgedl.me.gvt1.com/edgedl/release2/chrome/adgdj2xrq6onel2gjz6ekg7ofwmq_124.0.6367.29/124.0.6367.29_chrome_installer.exe", "https://edgedl.me.gvt1.com/edgedl/release2/chrome/adgdj2xrq6onel2gjz6ekg7ofwmq_124.0.6367.29/124.0.6367.29_chrome_installer.exe", "http://dl.google.com/release2/chrome/adgdj2xrq6onel2gjz6ekg7ofwmq_124.0.6367.29/124.0.6367.29_chrome_installer.exe", "https://dl.google.com/release2/chrome/adgdj2xrq6onel2gjz6ekg7ofwmq_124.0.6367.29/124.0.6367.29_chrome_installer.exe", "http://www.google.com/dl/release2/chrome/adgdj2xrq6onel2gjz6ekg7ofwmq_124.0.6367.29/124.0.6367.29_chrome_installer.exe", "https://www.google.com/dl/release2/chrome/adgdj2xrq6onel2gjz6ekg7ofwmq_124.0.6367.29/124.0.6367.29_chrome_installer.exe"]
+            },
+            "dev": {
+                "label": "Dev 开发版",
+                "version": "125.0.6382.3",
+                "size": 112303152,
+                "hash": "C3AADFB0F0372CBD110DB9609057B5A7A019F5DC",
+                "sha256": "6BE2E5C29D4C8592175A4EF2DF227FBB33D177D20CC6A999B58B6DCACD570D4E",
+                "urls": ["http://edgedl.me.gvt1.com/edgedl/release2/chrome/nb6phr2f2ebypifl4smkihr6fm_125.0.6382.3/125.0.6382.3_chrome_installer.exe", "https://edgedl.me.gvt1.com/edgedl/release2/chrome/nb6phr2f2ebypifl4smkihr6fm_125.0.6382.3/125.0.6382.3_chrome_installer.exe", "http://dl.google.com/release2/chrome/nb6phr2f2ebypifl4smkihr6fm_125.0.6382.3/125.0.6382.3_chrome_installer.exe", "https://dl.google.com/release2/chrome/nb6phr2f2ebypifl4smkihr6fm_125.0.6382.3/125.0.6382.3_chrome_installer.exe", "http://www.google.com/dl/release2/chrome/nb6phr2f2ebypifl4smkihr6fm_125.0.6382.3/125.0.6382.3_chrome_installer.exe", "https://www.google.com/dl/release2/chrome/nb6phr2f2ebypifl4smkihr6fm_125.0.6382.3/125.0.6382.3_chrome_installer.exe"]
+            },
+            "canary": {
+                "label": "Canary 金丝雀版",
+                "version": "125.0.6398.0",
+                "size": 112610352,
+                "hash": "9E51426A6105F536D665D50E12B5C7AC139FCFE7",
+                "sha256": "E7C5A5F9D711197E517920A151047565F0EA5FF7BCF5A38B3BBB1302D8EE9C25",
+                "urls": ["http://edgedl.me.gvt1.com/edgedl/release2/chrome/aduua5n7rrydljodaei2a2lvkbnq_125.0.6398.0/125.0.6398.0_chrome_installer.exe", "https://edgedl.me.gvt1.com/edgedl/release2/chrome/aduua5n7rrydljodaei2a2lvkbnq_125.0.6398.0/125.0.6398.0_chrome_installer.exe", "http://dl.google.com/release2/chrome/aduua5n7rrydljodaei2a2lvkbnq_125.0.6398.0/125.0.6398.0_chrome_installer.exe", "https://dl.google.com/release2/chrome/aduua5n7rrydljodaei2a2lvkbnq_125.0.6398.0/125.0.6398.0_chrome_installer.exe", "http://www.google.com/dl/release2/chrome/aduua5n7rrydljodaei2a2lvkbnq_125.0.6398.0/125.0.6398.0_chrome_installer.exe", "https://www.google.com/dl/release2/chrome/aduua5n7rrydljodaei2a2lvkbnq_125.0.6398.0/125.0.6398.0_chrome_installer.exe"]
+            }
+        },
+        "win7": {
+            "x86_stable": {
+                "label": "32 位稳定版",
+                "version": "109.0.5414.149",
+                "size": 89303080,
+                "hash": "6610524FF5F1E3EE71D503E9B5C1F8A3FDB8D5AD",
+                "sha256": "1C7195F31513B06D625D3CB07A9103826C2A87302CF6B3255B913270C91532BB",
+                "urls": ["http://edgedl.me.gvt1.com/edgedl/release2/chrome/adjs6spifue5dxngiogotsz633pq_109.0.5414.149/109.0.5414.149_chrome_installer.exe", "https://edgedl.me.gvt1.com/edgedl/release2/chrome/adjs6spifue5dxngiogotsz633pq_109.0.5414.149/109.0.5414.149_chrome_installer.exe", "http://dl.google.com/release2/chrome/adjs6spifue5dxngiogotsz633pq_109.0.5414.149/109.0.5414.149_chrome_installer.exe", "https://dl.google.com/release2/chrome/adjs6spifue5dxngiogotsz633pq_109.0.5414.149/109.0.5414.149_chrome_installer.exe", "http://www.google.com/dl/release2/chrome/adjs6spifue5dxngiogotsz633pq_109.0.5414.149/109.0.5414.149_chrome_installer.exe", "https://www.google.com/dl/release2/chrome/adjs6spifue5dxngiogotsz633pq_109.0.5414.149/109.0.5414.149_chrome_installer.exe"]
+            },
+            "x64_stable": {
+                "label": "64 位稳定版",
+                "version": "109.0.5414.149",
+                "size": 93174824,
+                "hash": "4B1DFF35DB446536D51AC7D5DD5CC76912432135",
+                "sha256": "D6E9957BD91503BCFA21616E08E2E46E8CBA96E961E5998D67F1EC1C436A0A3B",
+                "urls": ["http://edgedl.me.gvt1.com/edgedl/release2/chrome/oeecyq7z2j4yyfoa4cev5c4o7e_109.0.5414.149/109.0.5414.149_chrome_installer.exe", "https://edgedl.me.gvt1.com/edgedl/release2/chrome/oeecyq7z2j4yyfoa4cev5c4o7e_109.0.5414.149/109.0.5414.149_chrome_installer.exe", "http://dl.google.com/release2/chrome/oeecyq7z2j4yyfoa4cev5c4o7e_109.0.5414.149/109.0.5414.149_chrome_installer.exe", "https://dl.google.com/release2/chrome/oeecyq7z2j4yyfoa4cev5c4o7e_109.0.5414.149/109.0.5414.149_chrome_installer.exe", "http://www.google.com/dl/release2/chrome/oeecyq7z2j4yyfoa4cev5c4o7e_109.0.5414.149/109.0.5414.149_chrome_installer.exe", "https://www.google.com/dl/release2/chrome/oeecyq7z2j4yyfoa4cev5c4o7e_109.0.5414.149/109.0.5414.149_chrome_installer.exe"]
+            }
+        },
+        "mac": {
+            "stable": {
+                "label": "Stable 稳定版",
+                "version": "123.0.6312.107",
+                "size": 212935679,
+                "hash": "8135A0A5C5A49ECA5FA048CF4266868BC5DA7362",
+                "sha256": "111ED04DE26FE092DE44DEAD4B272F591688B8562C88D0A3BF5EEA4100D50BB6",
+                "urls": ["http://edgedl.me.gvt1.com/edgedl/release2/chrome/jvsmwdj44b2dzm5rgai3s347ym_123.0.6312.107/GoogleChrome-123.0.6312.107.dmg", "https://edgedl.me.gvt1.com/edgedl/release2/chrome/jvsmwdj44b2dzm5rgai3s347ym_123.0.6312.107/GoogleChrome-123.0.6312.107.dmg", "http://dl.google.com/release2/chrome/jvsmwdj44b2dzm5rgai3s347ym_123.0.6312.107/GoogleChrome-123.0.6312.107.dmg", "https://dl.google.com/release2/chrome/jvsmwdj44b2dzm5rgai3s347ym_123.0.6312.107/GoogleChrome-123.0.6312.107.dmg", "http://www.google.com/dl/release2/chrome/jvsmwdj44b2dzm5rgai3s347ym_123.0.6312.107/GoogleChrome-123.0.6312.107.dmg", "https://www.google.com/dl/release2/chrome/jvsmwdj44b2dzm5rgai3s347ym_123.0.6312.107/GoogleChrome-123.0.6312.107.dmg"]
+            },
+            "beta": {
+                "label": "Beta 测试版",
+                "version": "124.0.6367.29",
+                "size": 207031463,
+                "hash": "2059244E72F73E79F74C1905A970DB5A46A933B3",
+                "sha256": "5D18F987EF13071CEA75099E8EADEBF24585C8F4BCE8F309AF24D62015858AEE",
+                "urls": ["http://edgedl.me.gvt1.com/edgedl/release2/chrome/adqh65fc5gehmnjfpaomtoiopaqq_124.0.6367.29/GoogleChromeBeta-124.0.6367.29.dmg", "https://edgedl.me.gvt1.com/edgedl/release2/chrome/adqh65fc5gehmnjfpaomtoiopaqq_124.0.6367.29/GoogleChromeBeta-124.0.6367.29.dmg", "http://dl.google.com/release2/chrome/adqh65fc5gehmnjfpaomtoiopaqq_124.0.6367.29/GoogleChromeBeta-124.0.6367.29.dmg", "https://dl.google.com/release2/chrome/adqh65fc5gehmnjfpaomtoiopaqq_124.0.6367.29/GoogleChromeBeta-124.0.6367.29.dmg", "http://www.google.com/dl/release2/chrome/adqh65fc5gehmnjfpaomtoiopaqq_124.0.6367.29/GoogleChromeBeta-124.0.6367.29.dmg", "https://www.google.com/dl/release2/chrome/adqh65fc5gehmnjfpaomtoiopaqq_124.0.6367.29/GoogleChromeBeta-124.0.6367.29.dmg"]
+            },
+            "dev": {
+                "label": "Dev 开发版",
+                "version": "125.0.6382.3",
+                "size": 201596003,
+                "hash": "43C17BF032B50CEB6ACD9B180B98AF5A508AA483",
+                "sha256": "9E7032AAABA17E132A36C5034000F1A0C0271BCC71A0889566F399A9ADCA3478",
+                "urls": ["http://edgedl.me.gvt1.com/edgedl/release2/chrome/idf33gsgyhzzhi2zfil6kqffpa_125.0.6382.3/GoogleChromeDev-125.0.6382.3.dmg", "https://edgedl.me.gvt1.com/edgedl/release2/chrome/idf33gsgyhzzhi2zfil6kqffpa_125.0.6382.3/GoogleChromeDev-125.0.6382.3.dmg", "http://dl.google.com/release2/chrome/idf33gsgyhzzhi2zfil6kqffpa_125.0.6382.3/GoogleChromeDev-125.0.6382.3.dmg", "https://dl.google.com/release2/chrome/idf33gsgyhzzhi2zfil6kqffpa_125.0.6382.3/GoogleChromeDev-125.0.6382.3.dmg", "http://www.google.com/dl/release2/chrome/idf33gsgyhzzhi2zfil6kqffpa_125.0.6382.3/GoogleChromeDev-125.0.6382.3.dmg", "https://www.google.com/dl/release2/chrome/idf33gsgyhzzhi2zfil6kqffpa_125.0.6382.3/GoogleChromeDev-125.0.6382.3.dmg"]
+            },
+            "canary": {
+                "label": "Canary 金丝雀版",
+                "version": "125.0.6398.0",
+                "size": 201840791,
+                "hash": "4B1AB62C775A9C9CC1C866AABB531D69EEA857BB",
+                "sha256": "DE0EB79C7A2536A9EFE733F569B47F2B4826E38AC2607101A6F742A3B63469FE",
+                "urls": ["http://edgedl.me.gvt1.com/edgedl/release2/chrome/f6cg7r63x4yrhe7de2djg4uzee_125.0.6398.0/GoogleChromeCanary-125.0.6398.0.dmg", "https://edgedl.me.gvt1.com/edgedl/release2/chrome/f6cg7r63x4yrhe7de2djg4uzee_125.0.6398.0/GoogleChromeCanary-125.0.6398.0.dmg", "http://dl.google.com/release2/chrome/f6cg7r63x4yrhe7de2djg4uzee_125.0.6398.0/GoogleChromeCanary-125.0.6398.0.dmg", "https://dl.google.com/release2/chrome/f6cg7r63x4yrhe7de2djg4uzee_125.0.6398.0/GoogleChromeCanary-125.0.6398.0.dmg", "http://www.google.com/dl/release2/chrome/f6cg7r63x4yrhe7de2djg4uzee_125.0.6398.0/GoogleChromeCanary-125.0.6398.0.dmg", "https://www.google.com/dl/release2/chrome/f6cg7r63x4yrhe7de2djg4uzee_125.0.6398.0/GoogleChromeCanary-125.0.6398.0.dmg"]
+            }
+        }
+    }
+}
