@@ -111,7 +111,6 @@ def fetch():
     for k, v in info.items():
         res = post(**v)
         data = decode(res)
-        data['time'] = datetime.now(timezone.utc).timestamp() * 1000
         if "stable" in k:
             data['label'] = 'Stable 稳定版'
         elif "beta" in k:
@@ -132,6 +131,8 @@ def fetch():
         #if version_tuple(data['version']) < version_tuple():
         #    print("ignore", k, data['version'])
         #    continue
+        data['time'] = datetime.now(timezone.utc).timestamp() * 1000
+        print("data['time']:",data['time'])
         results = data
 
 suffixes = ['B', 'KB', 'MB', 'GB', 'TB', 'PB']
