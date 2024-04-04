@@ -111,7 +111,7 @@ def fetch():
     for k, v in info.items():
         res = post(**v)
         data = decode(res)
-        data['time']: datetime.now(timezone.utc).timestamp() * 1000
+        data['time'] = datetime.now(timezone.utc).timestamp() * 1000
         if "stable" in k:
             data['label'] = 'Stable 稳定版'
         elif "beta" in k:
