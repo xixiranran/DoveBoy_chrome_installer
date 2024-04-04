@@ -119,10 +119,10 @@ def fetch():
             data['label'] = 'Dev 开发版'
         elif "canary" in k:
            data['label']= 'Canary 金丝雀版'
-        #print("k:",k)
-        #print("v:",v)
-        #print("info:",info)
-        #print("info.items():",info.items())
+        print("k:",k)
+        print("v:",v)
+        print("info:",info)
+        print("info.items():",info.items())
         #print("res:",res)
         print("data:",data)
         #if version_tuple(data['version']) < version_tuple(results[k]['version']):
