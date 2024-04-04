@@ -171,7 +171,7 @@ def save_json():
     with open('data.json', 'w') as f:
         print("update time:",datetime.now().timestamp())
         print("results['time']:",results['time'])
-        results.update({'time': datetime.now(timezone.utc).timestamp() * 1000})
+        results.update({'time': int(datetime.now(timezone.utc).timestamp() * 1000)})
         print("results['time']:",results['time'])
         json.dump(results, f, indent=4)
         print("results:",results)
