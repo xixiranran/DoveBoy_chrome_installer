@@ -171,6 +171,7 @@ def save_json():
         results = json.load(f)
         #json.dump(results, f, indent=4)
         print("results:",results)
+        print("results['data']:",results['data'])
         # 假设这是您生成的新数据格式
         new_data = {
             "time": 1711885545367,
