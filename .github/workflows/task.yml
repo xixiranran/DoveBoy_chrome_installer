@@ -18,7 +18,7 @@ jobs:
     - name: Set up Python 3.8
       uses: actions/setup-python@v2
       with:
-        python-version: '3.8'  # 指定Python版本为3.8
+        python-version: '3.81'  # 指定Python版本为3.81
 
     - name: Install dependencies
       run: |
