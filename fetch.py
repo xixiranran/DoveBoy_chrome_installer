@@ -169,17 +169,45 @@ def save_md():
         
 def save_json():
     with open('data.json', 'w') as f:
-        print("update time:",datetime.now().timestamp())
-        print("results['time']:",results['time'])
+        #print("update time:",datetime.now().timestamp())
+        #print("results['time']:",results['time'])
         results.update({'time': int(datetime.now().timestamp() * 1000)})
-        print("results['time']:",results['time'])
+        #print("results['time']:",results['time'])
         json.dump(results, f, indent=4)
-        print("results:",results)
+        #print("results:",results)
+
+from bs4 import BeautifulSoup
+
+def update_html():
+    # 步骤1: 读取本地HTML文件
+    html_file_path = 'path/to/your/file.html'  # 替换为你的HTML文件的本地路径
+    with open(html_file_path, 'r', encoding='utf-8') as file:
+        html_content = file.read()
+    
+    # 步骤2: 解析HTML内容
+    soup = BeautifulSoup(html_content, 'html.parser')
+    
+    # 步骤3: 修改HTML内容
+    # 假设我们要修改id为"myId"的<div>标签的内容
+    div_tag = soup.find(id='myId')
+    div_tag.string = 'This is the new content.'
+    
+    # 假设我们还要修改class为"myClass"的<p>标签的内容
+    p_tag = soup.find(class_='myClass')
+    p_tag.string = 'This is the new paragraph.'
+    
+    # 步骤4: 保存修改后的HTML内容
+    output_file_path = 'path/to/your/modified_file.html'  # 替换为你想要保存的新文件路径
+    with open(output_file_path, 'w', encoding='utf-8') as file:
+        file.write(str(soup))
+    
+    # 如果你想覆盖原文件，可以将output_file_path设置为html_file_path
 
 def main():
     load_json()
     fetch()
     #save_md()
     save_json()
+    #update_html()
 
 main()
