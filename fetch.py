@@ -119,14 +119,15 @@ def fetch():
             data['label'] = 'Dev 开发版'
         elif "canary" in k:
            data['label']= 'Canary 金丝雀版'
-        print("k:",k)
-        print("v:",v)
-        print("info:",info)
-        print("info.items():",info.items())
+        #print("k:",k)
+        #print("v:",v)
+        #print("info:",info)
+        #print("info.items():",info.items())
         #print("res:",res)
-        print("data:",data)
-        print("data['version']:",data['version'])
-        print("results[k]['version']:",results[k]['version'])
+        #print("data:",data)
+        #print("data['version']:",data['version'])
+        #print("results[k]['version']:",results[k]['version'])
+        #下面的代码因为我把data.json的格式改了，所以执行有问题，且我想到一个问题，就是他这个判断是判断的stable版本有无更新，有更新才执行后面的代码，但是有可能stable没更新，其他版本有更新，这样就会导致更新不及时，所以索性注释掉这个代码，让他按github action设置的时间频率，每次执行的时候都重新生成data.json
         #if version_tuple(data['version']) < version_tuple():
         #    print("ignore", k, data['version'])
         #    continue
