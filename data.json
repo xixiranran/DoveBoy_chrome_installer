@@ -2,8 +2,8 @@
     "win_stable_x86": {
         "version": "108.0.5359.94",
         "size": 88716328,
-        "sha1": "7de47ca180fc8a585991cefd645878da02fc7352",
-        "sha256": "dc6588df7d9715033b3a0e8d84b3a251ea0771ba80e6203d9e2fb021a258d248",
+        "sha1": "7de47ca180fc8a5",
+        "sha256": "d021a258d248",
         "urls": [
             "http://edgedl.me.gvt1.com/edgedl/release2/chrome/lh2h52dfg63gatoroeun5wspzq_108.0.5359.94/108.0.5359.94_chrome_installer.exe",
             "https://edgedl.me.gvt1.com/edgedl/release2/chrome/lh2h52dfg63gatoroeun5wspzq_108.0.5359.94/108.0.5359.94_chrome_installer.exe",
