@@ -3,11 +3,11 @@
     "data": {
         "win_x86": {
             "stable": {
-                "label": "Stable \u7a33\u5b9a\u7248",
+                "label": "S",
                 "version": "123.0.6312.86",
                 "size": 103728688,
-                "hash": "2D568CF8458A188ADFF7ABE0585449B017FF4BA9",
-                "sha256": "70CCC048ED07E1EA3190D139BA3B51970F0DF9956E5736C9D562B6A091F464E9",
+                "hash": "2D568CF8458A188ADFF79",
+                "sha256": "7F9956E5736C9D562B6A091F464E9",
                 "urls": [
                     "http://edgedl.me.gvt1.com/edgedl/release2/chrome/h3j2suplioizrc6bdy2qrwucva_123.0.6312.86/123.0.6312.86_chrome_installer.exe",
                     "https://edgedl.me.gvt1.com/edgedl/release2/chrome/h3j2suplioizrc6bdy2qrwucva_123.0.6312.86/123.0.6312.86_chrome_installer.exe",
