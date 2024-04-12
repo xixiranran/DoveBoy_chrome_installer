@@ -14,6 +14,12 @@ jobs:
       with:
         persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
         fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
+    - name: Install dependencies
+      run: |
+        pip install beautifulsoup4
+        # 在这里可以添加其他需要安装的Python库
+        pip install requests
+        
     - name: build
       run: python fetch.py
     - name: Commit files
