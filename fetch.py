@@ -9,7 +9,7 @@ response = requests.get(url)
 if response.status_code == 200:
     # 使用BeautifulSoup解析HTML内容
     soup = BeautifulSoup(response.text, 'html.parser')
-    
+    print(soup)
     # 根据HTML结构查找包含版本号的元素
     # 这里需要根据实际页面的HTML结构来确定如何提取版本号
     # 例如，假设版本号位于页面的某个<meta>标签中，名称为"version"
